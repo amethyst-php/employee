@@ -28,7 +28,7 @@ class Employee extends Model implements EntityContract
      */
     public function legal_entity(): BelongsTo
     {
-        return $this->belongsTo(LegalEntity::class);
+        return $this->belongsTo(config('amethyst.legal-entity.data.legal-entity.model'));
     }
 
     /**
@@ -36,6 +36,6 @@ class Employee extends Model implements EntityContract
      */
     public function office(): BelongsTo
     {
-        return $this->belongsTo(Office::class);
+        return $this->belongsTo(config('amethyst.office.data.office.model'));
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Railken\Amethyst\Schemas;
+namespace Amethyst\Schemas;
 
-use Railken\Amethyst\Managers\LegalEntityManager;
-use Railken\Amethyst\Managers\OfficeManager;
+use Amethyst\Managers\LegalEntityManager;
+use Amethyst\Managers\OfficeManager;
 use Railken\Lem\Attributes;
 use Railken\Lem\Schema;
 

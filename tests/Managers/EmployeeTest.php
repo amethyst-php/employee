@@ -1,10 +1,10 @@
 <?php
 
-namespace Railken\Amethyst\Tests\Managers;
+namespace Amethyst\Tests\Managers;
 
-use Railken\Amethyst\Fakers\EmployeeFaker;
-use Railken\Amethyst\Managers\EmployeeManager;
-use Railken\Amethyst\Tests\BaseTest;
+use Amethyst\Fakers\EmployeeFaker;
+use Amethyst\Managers\EmployeeManager;
+use Amethyst\Tests\BaseTest;
 use Railken\Lem\Support\Testing\TestableBaseTrait;
 
 class EmployeeTest extends BaseTest

@@ -1,8 +1,8 @@
 <?php
 
-namespace Railken\Amethyst\Providers;
+namespace Amethyst\Providers;
 
-use Railken\Amethyst\Common\CommonServiceProvider;
+use Amethyst\Common\CommonServiceProvider;
 
 class EmployeeServiceProvider extends CommonServiceProvider
 {
@@ -13,7 +13,7 @@ class EmployeeServiceProvider extends CommonServiceProvider
     {
         parent::register();
 
-        $this->app->register(\Railken\Amethyst\Providers\LegalEntityServiceProvider::class);
-        $this->app->register(\Railken\Amethyst\Providers\OfficeServiceProvider::class);
+        $this->app->register(\Amethyst\Providers\LegalEntityServiceProvider::class);
+        $this->app->register(\Amethyst\Providers\OfficeServiceProvider::class);
     }
 }

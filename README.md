@@ -1,6 +1,6 @@
 # amethyst-employee
 
-[![Build Status](https://travis-ci.org/amethyst-php/employee.svg?branch=master)](https://travis-ci.org/amethyst-php/employee)
+[![Action Status](https://github.com/amethyst-php/employee/workflows/test/badge.svg)](https://github.com/amethyst-php/employee/actions)
 
 [Amethyst](https://github.com/amethyst-php/amethyst) package.
 
